@@ -38,8 +38,8 @@ def convert(size, box):
 
 
 def convert_annotation(image_id):
-    in_file = open('D:/B_Dataset/仪表数据集/VOC2007_927+/VOC2007/Annotations/%s.xml' % image_id)
-    out_file = open('D:/B_Dataset/仪表数据集/VOC2007_927+/VOC2007/YOLOLabels/%s.txt' % image_id, 'w')
+    in_file = open('VOC2007/Annotations/%s.xml' % image_id)
+    out_file = open('VOC2007/YOLOLabels/%s.txt' % image_id, 'w')
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find('size')
