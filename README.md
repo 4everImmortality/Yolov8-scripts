@@ -1,4 +1,7 @@
-# Yolo-v8-MultiThread-track-and-detect
+一些DL的小脚本
+dataset目录下有用来转换格式和划分数据集的脚本
+
+Yolo-v8-MultiThread-track-and-detect目录下是一些小的业务
 皮带跑偏检测
 探访水计数
 卡车跟踪
